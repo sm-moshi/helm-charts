@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  homepage:
+  - apiVersion: v2
+    appVersion: v1.8.0
+    created: "2025-12-30T00:50:39.540173566Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for Homepage dashboard
+    digest: 01d68b20b276eed1e79ef9a6ed1c5795a702242268b8ee8fa8ba1015dbe45c22
+    home: https://github.com/gethomepage/homepage
+    icon: https://github.com/gethomepage/homepage/blob/main/public/mstile-150x150.png
+    kubeVersion: '>=1.28.0-0'
+    name: homepage
+    sources:
+    - https://github.com/gethomepage/homepage
+    - https://github.com/bjw-s-labs/helm-charts
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/homepage-0.1.2/homepage-0.1.2.tgz
+    version: 0.1.2
+generated: "2025-12-30T00:50:39.540182824Z"
