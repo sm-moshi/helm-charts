@@ -85,6 +85,32 @@ entries:
   cyberchef:
   - apiVersion: v2
     appVersion: v10.19.4
+    created: "2025-12-30T13:21:38.556195324Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for CyberChef
+    digest: 758e05721aacc11f20ff42c1b08780d9e872a57d7b05fc7dbca20459b173adec
+    home: https://github.com/gchq/CyberChef
+    icon: https://raw.githubusercontent.com/gchq/CyberChef/refs/heads/master/src/web/static/images/cyberchef-64x64.png
+    keywords:
+    - cyberchef
+    - gchq
+    - utilities
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: cyberchef
+    sources:
+    - https://github.com/gchq/CyberChef
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/cyberchef-0.1.2/cyberchef-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v10.19.4
     created: "2025-12-30T11:38:32.184574634Z"
     dependencies:
     - name: common
@@ -344,4 +370,4 @@ entries:
     urls:
     - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.0/wud-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-30T13:16:14.124052313Z"
+generated: "2025-12-30T13:21:38.556224238Z"
