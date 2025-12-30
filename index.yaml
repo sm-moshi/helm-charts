@@ -72,4 +72,32 @@ entries:
     urls:
     - https://github.com/sm-moshi/helm-charts/releases/download/homepage-0.1.2/homepage-0.1.2.tgz
     version: 0.1.2
-generated: "2025-12-30T02:34:27.292860631Z"
+  it-tools:
+  - apiVersion: v2
+    appVersion: 2024.10.22-7ca5933
+    created: "2025-12-30T03:51:01.143033625Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for IT-Tools
+    digest: dd4c87c4a1e3a0bdc81a4fade29fceb173f5ee209209bb51e46ee19d46a69f7b
+    home: https://it-tools.tech
+    icon: https://raw.githubusercontent.com/CorentinTh/it-tools/main/.github/logo-dark.png
+    keywords:
+    - it-tools
+    - utilities
+    - dashboard
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: it-tools
+    sources:
+    - https://github.com/CorentinTh/it-tools
+    - https://github.com/bjw-s-labs/helm-charts
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/it-tools-0.1.0/it-tools-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-12-30T03:51:01.143046148Z"
