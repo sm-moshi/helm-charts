@@ -16,8 +16,9 @@ helm install <release-name> sm-moshi/<chart-name>
 
 ## Charts
 
+- `argus`
 - `homepage`
-- `example-app`
+- `it-tools`
 
 ## Publish a Chart
 
