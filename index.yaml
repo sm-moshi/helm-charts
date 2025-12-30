@@ -265,6 +265,33 @@ entries:
   wud:
   - apiVersion: v2
     appVersion: 8.1.1
+    created: "2025-12-30T13:16:14.124030392Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for WUD (What's Up Docker)
+    digest: a31bb963d1f3cda0cb96fc2c3050f16dc06ad3ddf3dbb1435b3c0910f16d5764
+    home: https://github.com/getwud/wud
+    icon: https://raw.githubusercontent.com/getwud/wud/refs/heads/main/ui/public/img/icons/apple-touch-icon.png
+    keywords:
+    - wud
+    - whats-up-docker
+    - monitoring
+    - notifications
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: wud
+    sources:
+    - https://github.com/getwud/wud
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.2/wud-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 8.1.1
     created: "2025-12-30T11:38:32.498976598Z"
     dependencies:
     - name: common
@@ -317,4 +344,4 @@ entries:
     urls:
     - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.0/wud-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-30T11:38:32.498996264Z"
+generated: "2025-12-30T13:16:14.124052313Z"
