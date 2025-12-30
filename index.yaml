@@ -85,6 +85,32 @@ entries:
   cyberchef:
   - apiVersion: v2
     appVersion: v10.19.4
+    created: "2025-12-30T11:38:32.184574634Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for CyberChef
+    digest: f4d4b51876f9552acc061777cd3047754ba45e184cb34911a29cec0046535ea8
+    home: https://github.com/gchq/CyberChef
+    icon: https://github.com/gchq/CyberChef.png
+    keywords:
+    - cyberchef
+    - gchq
+    - utilities
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: cyberchef
+    sources:
+    - https://github.com/gchq/CyberChef
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/cyberchef-0.1.1/cyberchef-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v10.19.4
     created: "2025-12-30T10:46:15.534435671Z"
     dependencies:
     - name: common
@@ -110,6 +136,33 @@ entries:
     - https://github.com/sm-moshi/helm-charts/releases/download/cyberchef-0.1.0/cyberchef-0.1.0.tgz
     version: 0.1.0
   gitea-runner:
+  - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2025-12-30T11:38:32.334853201Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for Gitea Actions runner with optional Docker-in-Docker
+    digest: f4aaec4368b905fe225e4f85243357474a958a0d1190e568cd9f95c3e4f515d0
+    home: https://gitea.com/gitea/act_runner
+    icon: https://github.com/go-gitea.png
+    keywords:
+    - gitea
+    - actions
+    - runner
+    - ci
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: gitea-runner
+    sources:
+    - https://gitea.com/gitea/act_runner
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/gitea-runner-0.1.1/gitea-runner-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 0.2.13
     created: "2025-12-30T10:46:15.678651941Z"
@@ -212,6 +265,33 @@ entries:
   wud:
   - apiVersion: v2
     appVersion: 8.1.1
+    created: "2025-12-30T11:38:32.498976598Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for WUD (What's Up Docker)
+    digest: 3c929a3654fc430d85b68cbc51203ca5f748fd75f5839442c20f70e3254540ea
+    home: https://github.com/getwud/wud
+    icon: https://github.com/getwud/wud.png
+    keywords:
+    - wud
+    - whats-up-docker
+    - monitoring
+    - notifications
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: wud
+    sources:
+    - https://github.com/getwud/wud
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.1/wud-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 8.1.1
     created: "2025-12-30T10:46:15.812693573Z"
     dependencies:
     - name: common
@@ -237,4 +317,4 @@ entries:
     urls:
     - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.0/wud-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-30T10:46:15.812711156Z"
+generated: "2025-12-30T11:38:32.498996264Z"
