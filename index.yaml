@@ -164,6 +164,33 @@ entries:
   gitea-runner:
   - apiVersion: v2
     appVersion: 0.2.13
+    created: "2026-01-01T17:00:05.891060264Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.5.0
+    description: Helm chart for Gitea Actions runner with optional Docker-in-Docker
+    digest: ee761bf840f9b861738f2e3f60c3381fb948dbf543b09d39eea79e463edc557f
+    home: https://gitea.com/gitea/act_runner
+    icon: https://github.com/go-gitea.png
+    keywords:
+    - gitea
+    - actions
+    - runner
+    - ci
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: gitea-runner
+    sources:
+    - https://gitea.com/gitea/act_runner
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/gitea-runner-0.1.3/gitea-runner-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.2.13
     created: "2025-12-30T11:38:32.334853201Z"
     dependencies:
     - name: common
@@ -370,4 +397,4 @@ entries:
     urls:
     - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.0/wud-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-30T13:21:38.556224238Z"
+generated: "2026-01-01T17:00:05.891106021Z"
