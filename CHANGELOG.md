@@ -1,4 +1,44 @@
-## [unreleased]
+## [it-tools-0.2.0] - 2026-01-08
+
+### 💼 Other
+
+- Bump: it-tools 0.2.0
+## [homepage-0.3.0] - 2026-01-08
+
+### 💼 Other
+
+- Bump: Homepage 0.3.0
+## [gitea-runner-0.2.0] - 2026-01-08
+
+### ⚙️ Miscellaneous Tasks
+
+- Chore: bump gitea runner to 0.2.0
+## [cyberchef-0.2.0] - 2026-01-08
+
+### ⚙️ Miscellaneous Tasks
+
+- Chore: bump cyberchef to 0.2.0
+## [argus-0.5.0] - 2026-01-08
+
+### 💼 Other
+
+- Add Helm tasks and improve linting
+
+Adds dedicated tasks to update Helm chart dependencies and to lint charts, enabling linting of subcharts. Uses the lint flag to include subcharts and provides a scripted task for dependency updates to simplify maintenance.
+
+Also bumps tool versions and the min version constraint to ensure compatibility with the updated hooks and tasks.
+
+### ⚙️ Miscellaneous Tasks
+
+- Chore: Argus 0.5.0
+## [gitea-runner-0.1.3] - 2026-01-01
+
+### 💼 Other
+
+- Merge pull request #5 from sm-moshi/renovate/major-github-actions
+- Merge pull request #6 from sm-moshi/renovate/github-actions
+- Bump gitea-runner
+## [cyberchef-0.1.2] - 2025-12-30
 
 ### 💼 Other
 
