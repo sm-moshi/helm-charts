@@ -3,6 +3,33 @@ entries:
   argus:
   - apiVersion: v2
     appVersion: 0.29.0
+    created: "2026-01-08T05:44:28.008993256Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.6.0
+    description: Helm chart for Release-Argus
+    digest: 48b504e85657be6a83d67bdcb59cc80b640797eb25cf480f577dcd3523e0d0a4
+    home: https://release-argus.io
+    icon: https://github.com/release-argus/Argus/raw/master/web/ui/react-app/public/favicon.svg
+    keywords:
+    - argus
+    - releases
+    - notifications
+    - monitoring
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: argus
+    sources:
+    - https://github.com/release-argus/Argus
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/argus-0.5.0/argus-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 0.29.0
     created: "2025-12-30T05:44:35.432419735Z"
     dependencies:
     - name: common
@@ -397,4 +424,4 @@ entries:
     urls:
     - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.0/wud-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-01T17:00:05.891106021Z"
+generated: "2026-01-08T05:44:28.009031618Z"
