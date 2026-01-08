@@ -393,6 +393,33 @@ entries:
   it-tools:
   - apiVersion: v2
     appVersion: 2024.10.22-7ca5933
+    created: "2026-01-08T05:50:19.811065203Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s-labs.github.io/helm-charts
+      version: 4.6.0
+    description: Helm chart for IT-Tools
+    digest: 720f0d28c31dd88348e8a854e1fc2cda51a31df491aaf7a0f118b32180d7c97a
+    home: https://it-tools.tech
+    icon: https://raw.githubusercontent.com/CorentinTh/it-tools/main/.github/logo-dark.png
+    keywords:
+    - it-tools
+    - utilities
+    - dashboard
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: sm@m0sh1.cc
+      name: m0sh1
+    name: it-tools
+    sources:
+    - https://github.com/CorentinTh/it-tools
+    - https://github.com/bjw-s-labs/helm-charts
+    type: application
+    urls:
+    - https://github.com/sm-moshi/helm-charts/releases/download/it-tools-0.2.0/it-tools-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 2024.10.22-7ca5933
     created: "2025-12-30T03:51:01.143033625Z"
     dependencies:
     - name: common
@@ -500,4 +527,4 @@ entries:
     urls:
     - https://github.com/sm-moshi/helm-charts/releases/download/wud-0.1.0/wud-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-08T05:49:36.297672359Z"
+generated: "2026-01-08T05:50:19.811106851Z"
